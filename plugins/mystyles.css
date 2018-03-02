@@ -1,0 +1,222 @@
+.author {
+    /* font-family: brush script mt; */
+    font-family: 'Dancing Script', cursive;
+    font-size: 16px;
+    text-align: center;
+    margin-top: -6px;
+}
+.second-child {
+    color: #ff3b3f;
+    text-decoration: underline;
+}
+.display-box {
+    background-color: #caebf2;
+    padding-left: 12px;;
+}
+.my-quote {
+    padding: 4px;
+    font-size: 14px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.link-button {
+    font-size: 17px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #ff3b3f
+
+}
+.leader {
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+/* .display-box:after {
+  content: '';
+  width: 20px;
+  height: 2px;
+  background: black;
+  opacity: 0;
+  display: inline-block;
+  animation: blink 0.5s linear infinite alternate;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 24px;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+.about {
+    font-family: 'Maven Pro', sans-serif;
+}
+.house {
+    padding-bottom: 16px;
+}
+strong {
+    text-decoration: underline;
+}
+.title {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: black
+}
+.watermelon {
+    background-color: #ff3b3f
+}
+.sky-blue {
+    background-color: #caebf2
+}
+.neutral {
+    background-color: #efefef;
+}
+.carbon {
+    background-color: #a9a9a9
+}
+.social-icon {
+    border: solid white 2px;
+    padding: 4px;
+    margin-left: 20px;
+}
+.my-background {
+    background-color: #efefef;
+
+}
+.social-icon:hover {
+    cursor: pointer;
+}
+footer {
+    padding-left: 12px;
+    height: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+form {
+   font-family: 'Maven Pro', sans-serif; 
+}
+ul {
+    list-style-type: none;
+}
+.animation-element {
+    opacity: 0;
+    position: relative;
+}
+.animation-element.slide-left {
+    opacity: 0;
+    -moz-transition: all 500ms linear;
+    -webkit-transition: all 500ms linear;
+    -o-transition: all 500ms linear;
+    transition: all 500ms linear;
+    -moz-transform: translate3d(-100px, 0px, 0px);
+    -webkit-transform: translate3d(-100px, 0px, 0px);
+    -o-transform: translate(-100px, 0px);
+    -ms-transform: translate(-100px, 0px);
+    transform: translate3d(-100px, 0px, 0px);
+}
+.animation-element.slide-right {
+     opacity: 0;
+    -moz-transition: all 500ms linear;
+    -webkit-transition: all 500ms linear;
+    -o-transition: all 500ms linear;
+    transition: all 500ms linear;
+    -moz-transform: translate3d(100px, 0px, 0px);
+    -webkit-transform: translate3d(100px, 0px, 0px);
+    -o-transform: translate(100px, 0px);
+    -ms-transform: translate(100px, 0px);
+    transform: translate3d(100px, 0px, 0px);
+}
+.animation-element.slide-left.in-view {
+    opacity: 1;
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+}
+.animation-element.slide-right.in-view {
+      opacity: 1;
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+
+}
+input.invalid, textarea.invalid{
+	border: 2px solid red;
+}
+		
+input.valid, textarea.valid{
+	border: 2px solid green;
+}
+
+
+
+
+    /* font-family: 'Ubuntu', sans-serif;
+
+    font-family: 'PT Sans Narrow', sans-serif;
+
+    font-family: 'Josefin Sans', sans-serif;
+
+    font-family: 'Exo 2', sans-serif;
+
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+    font-family: 'Dancing Script', cursive;
+
+    font-family: 'Maven Pro', sans-serif; */
+
